@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&family=Sansita+Swashed:
+wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;
+700&family=Sansita+Swashed:wght@300&family=Titan+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Condiciones</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div>
+                <ul>
+                    <li><a href="index.html"> Desafío Parte 1</a></li>
+                    <li><a href="desafio2.html"> Desafío Parte 2</a></li>
+                    <li><a href="desafio3.html"> Desafío Parte 3</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="desafio2">
+        <h2>Puedes llevar hasta 10 sticker en total</h2>
+
+        <div class="desafio2">
+            <div>
+                <img class="desafio2-catface" id="img-catface01" src="/img/cat-face-01.png" alt="">
+                <input class="desafio2-catinput"  id="sticker01" type="text" placeholder="Cantidad de stickers">
+            </div>
+
+            <div>
+                <img class="desafio2-catface" id="img-catface02" src="/img/cat-face-02.png" alt="">
+                <input class="desafio2-catinput"  id="sticker02" type="text" placeholder="Cantidad de stickers">
+            </div>
+
+            <div>
+                <img class="desafio2-catface" id="img-catface03" src="/img/cat-face-03.png" alt="">
+                <input class="desafio2-catinput"  id="sticker03" type="text" placeholder="Cantidad de stickers">
+            </div>
+        </div>
+
+        <div>
+            <p class="desafio2-resultado" > <span id="resultado"  > Mi selección de sticker</span> </p>
+            <button id="boton-verificar" class="desafio2-boton" onclick="contarSticker()" >Verificar</button>
+        </div>
+
+
+
+    </main>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

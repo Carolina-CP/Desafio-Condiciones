@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+html{
+    box-sizing:border-box;
+    font-family: ubuntu;
+}
+
+.nav-bar{
+    height: 15vh;
+    background-color: rgb(30, 34, 31);
+}
+
+.nav-bar ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    margin: 4rem;
+    color:aliceblue;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+
+.nav-bar ul li a:hover{
+    color: rgb(143, 143, 79);
+    
+}
+
+main{
+    background-color: rgb(143, 143, 79);
+    margin: 0;
+    height: 80vh;
+    display:flexbox;
+    text-align: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: Titan One;
+    font-weight: 400;
+    padding-top: 10vh;
+    margin-bottom: 3vh;
+}
+
+.desafio1{
+    object-fit: cover;
+    padding-top: 8vh;
+}
+
+.desafio1-img {
+    width: 30%; 
+}
+
+.borde-rojo{
+    border: 2px solid red;
+}
+
+.desafio2{
+    width: 60%;
+    padding-top: 1vh;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    background-color: rgb(143, 143, 79);
+    margin-left: 20%;
+    
+}
+
+.desafio2 img{
+    width: 10rem;
+    padding: 8vh 8vh 2vh 8vh;
+    display: inline-block;
+}
+
+.desafio2-catinput{
+    width: 10rem;
+    height: 1.5rem;
+}
+
+.desafio2-resultado{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 4vh;
+}
+
+button{
+    background-color: rgb(7, 7, 7);
+    width: 10rem;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+.desafio3{
+    padding-top: 4vh;
+}
+
+.desafio3-select{
+    padding: 1vh;
+    width: 8vh;
+    margin: 2vh;
+    border-radius: 15%;
+    border-color: rgb(4, 49, 7);
+    color: rgb(6, 112, 6);
+    padding-left: 1vh;
+}
+
+.desafio3-input{
+    display: block;
+    margin-left: 43%;
+    margin-top: 2vh;
+    
+}
+
+.desafio3-resultado{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 4vh;
+}
